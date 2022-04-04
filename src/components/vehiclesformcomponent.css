@@ -1,0 +1,71 @@
+.header {
+  margin-left: 20%;
+  color: white;
+}
+
+.header p {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.header h5 {
+  color: #ffca00;
+  font-size: 29px;
+  margin-top: 10px;
+  font-weight: 200;
+  margin-bottom: 0px;
+}
+
+.vehicle-form {
+  margin-top: 10px;
+  padding: 20px 0px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.vehicle-form form {
+  display: flex;
+  padding-left: 20%;
+  color: white;
+}
+
+.vehicle-form form p {
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.vehicle-form form .car-input {
+  margin-right: 70px;
+}
+
+select {
+  width: 180px;
+  height: 40px;
+  padding: 10px;
+  color: gray;
+}
+
+.search {
+  display: flex;
+  align-items: flex-end;
+}
+
+.search-btn {
+  border: none;
+  color: white;
+  background-color: #ffca00;
+  width: 180px;
+  height: 40px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  .search {
+    margin-top: 35px;
+  }
+
+  .vehicle-form form {
+    display: block;
+  }
+}

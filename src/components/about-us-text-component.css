@@ -1,0 +1,39 @@
+.about-us-text-container {
+  width: 50%;
+  margin-left: 80px;
+}
+
+.about-us-text-container ul li img {
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+}
+
+.about-us-text-container ul {
+  padding: 0px;
+}
+
+.about-us-text-container li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.about-us-text-container h6 {
+  font-size: 15px;
+  margin-bottom: 0px;
+  font-weight: 350;
+}
+
+.about-us-text-container h3 {
+  font-weight: 400;
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .about-us-text-container {
+    margin: 0 auto;
+    position: relative;
+  }
+}

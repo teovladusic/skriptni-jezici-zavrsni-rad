@@ -1,0 +1,26 @@
+.background {
+  background-image: url("../images/background.jpg");
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.car-layout {
+  height: 70%;
+}
+
+@media only screen and (max-width: 900px) {
+  .background {
+    height: 1000px;
+  }
+
+  .car-layout {
+    height: 55%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .text h1 {
+    font-size: 70px;
+  }
+}
