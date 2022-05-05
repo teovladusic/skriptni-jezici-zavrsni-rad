@@ -7,7 +7,7 @@ const AboutUsTextComponent = () => {
       <h3>
         Who <b>Royal Cars</b> Are.
       </h3>
-      <p>
+      <p className="about-us-text">
         We know the difference is in the detauils and that's why our car rental
         services in the tourism and business industry stand out for their
         quality and good taste.

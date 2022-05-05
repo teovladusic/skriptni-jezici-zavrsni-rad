@@ -22,9 +22,6 @@ const Navbar = () => {
           <li>
             <Link to={"/contact"}>Contact Us</Link>
           </li>
-          <li>
-            <Link to={"/find-us"}>Find Us</Link>
-          </li>
         </ul>
         <img src={require("../images/burger-menu.png")} alt="menu" />
       </div>

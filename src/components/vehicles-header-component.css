@@ -1,0 +1,41 @@
+.vehicles-header-container {
+  background-image: url("../images/kropani-modified.png");
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -5px;
+}
+
+.vehicles-header-container .vehicles-header-text {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+
+.vehicles-header-container h1 {
+  font-size: 60px;
+  color: #ffca00;
+}
+
+.vehicles-header-container p {
+  font-size: 20px;
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .vehicles-header-container h1 {
+    font-size: 48px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .vehicles-header-container h1 {
+    font-size: 45px;
+  }
+
+  .vehicles-header-container .vehicles-header-text {
+    top: 20%;
+    left: 1;
+    right: 1;
+  }
+}
